@@ -1,0 +1,28 @@
+#addnew {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgba(244, 226, 91, 0.736);
+}
+
+#addnewcontainer {
+    align-self: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#addnewcard {
+
+    background-color: rgba(248, 155, 5, 0.753);
+    width: 450px;
+    height: 500px;
+    border-style: inherit;
+
+    h1 {
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+
+
+}
