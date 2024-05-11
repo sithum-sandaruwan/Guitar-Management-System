@@ -1,4 +1,12 @@
-#searchBar{
-    padding: 0px;
-    margin-top: 50px;
+
+#update{
+    min-height: 100vh;
+    display: flex;
+    background-color: cornsilk;
+   
+}
+
+ #searchBar{
+    
+    margin-top: 50px; 
 }
