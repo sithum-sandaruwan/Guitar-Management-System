@@ -8,30 +8,30 @@ function saveGuitar() {
     fetch("http://localhost:8080/guitar", {
         method: "POST",
         body: JSON.stringify(requestBody),
-        headers:{
-             "Content-type":"application/json"
+        headers: {
+            "Content-type": "application/json"
         }
     })
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-        });
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+    })
 }
 
 function mapRequest() {
 
     let requestBody = {
-        GuitarNumber: undefined,
-        GuitarBrand: undefined,
-        Qty: undefined,
-        Type: undefined
+        number: undefined,
+        brand: undefined,
+        qty: undefined,
+        type: undefined
 
     }
 
-    requestBody.GuitarNumber = document.getElementById("GuitarNumber").value;
-    requestBody.GuitarBrand = document.getElementById("GuitarBrand").value;
-    requestBody.Qty = document.getElementById("Qty").value;
-    requestBody.Type = document.getElementById("Type").value;
+    requestBody.number = document.getElementById("floatingnum").value;
+    requestBody.brand = document.getElementById("floatingbrand").value;
+    requestBody.qty = document.getElementById("floatingcount").value;
+    requestBody.type = document.getElementById("floatingtype").value;
 
 
 
