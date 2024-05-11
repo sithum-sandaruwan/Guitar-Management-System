@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: Sikka@323
+    url: jdbc:mysql://localhost:3306/Guitar
+  jpa:
+    hibernate:
+      ddl-auto: update
